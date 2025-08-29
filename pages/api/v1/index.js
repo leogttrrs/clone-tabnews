@@ -1,5 +1,5 @@
-function status(request, response) {
+function index(request, response) {
   response.status(200).json({"Páginas de status funcionando": "ainda não"})
 }
 
-export default status
+export default index
